@@ -1,0 +1,23 @@
+INFO:     Started server process [4827]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+--- 13.133369445800781 seconds ---
+cyac not found
+torch found: /usr/local/lib/python3.10/dist-packages/torch/lib
+torch set
+state cache enabled
+INFO:     127.0.0.1:45764 - "POST /enable-state-cache HTTP/1.1" 200 OK
+Strategy Devices: {'cuda'}
+state cache enabled
+[1/4] c++ -MMD -MF gemm_fp16_cublas.o.d -DTORCH_EXTENSION_NAME=wkv_cuda -DTORCH_API_INCLUDE_EXTENSION_H -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -fPIC -std=c++17 -c '/content/drive/.shortcut-targets-by-id/1lJ1k7XssrfwQNbcE15lQEL5trB2Nnod8/DSGA1011 NLP Final Project/RWKV API processing/RWKV-Runner-decouple/backend-python/rwkv_pip/cuda/gemm_fp16_cublas.cpp' -o gemm_fp16_cublas.o 
+[2/4] c++ -MMD -MF wrapper.o.d -DTORCH_EXTENSION_NAME=wkv_cuda -DTORCH_API_INCLUDE_EXTENSION_H -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -fPIC -std=c++17 -c '/content/drive/.shortcut-targets-by-id/1lJ1k7XssrfwQNbcE15lQEL5trB2Nnod8/DSGA1011 NLP Final Project/RWKV API processing/RWKV-Runner-decouple/backend-python/rwkv_pip/cuda/wrapper.cpp' -o wrapper.o 
+[3/4] /usr/local/cuda/bin/nvcc --generate-dependencies-with-compile --dependency-output operators.cuda.o.d -DTORCH_EXTENSION_NAME=wkv_cuda -DTORCH_API_INCLUDE_EXTENSION_H -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' --use_fast_math -O3 --extra-device-vectorization -std=c++17 -c '/content/drive/.shortcut-targets-by-id/1lJ1k7XssrfwQNbcE15lQEL5trB2Nnod8/DSGA1011 NLP Final Project/RWKV API processing/RWKV-Runner-decouple/backend-python/rwkv_pip/cuda/operators.cu' -o operators.cuda.o 
+[4/4] c++ wrapper.o operators.cuda.o gemm_fp16_cublas.o -shared  -L/usr/local/lib/python3.10/dist-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/local/cuda/lib64 -lcudart -o wkv_cuda.so
+RWKV_JIT_ON 1 RWKV_CUDA_ON 1 RESCALE_LAYER 6
+
+Loading /content/drive/.shortcut-targets-by-id/1lJ1k7XssrfwQNbcE15lQEL5trB2Nnod8/DSGA1011 NLP Final Project/RWKV API processing/models/RWKV-x070-World-0.1B-v2.8-20241210-ctx4096.pth ...
+Model detected: v7.0
+
+### RWKV-7 "Goose" enabled ###
+

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "short": "This example discusses context windows in a large web scale corpus to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses context windows in a large web scale corpus to inspect which layers are most sensitive to context length. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 2,
+    "short": "This example discusses prompt engineering in a simple toy task to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses prompt engineering in a simple toy task to inspect which layers are most sensitive to context length. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 3,
+    "short": "This example discusses prompt engineering in a large web scale corpus to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses prompt engineering in a large web scale corpus to study whether long contexts introduce distribution shift. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 4,
+    "short": "This example discusses attention mechanisms in a question answering benchmark to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses attention mechanisms in a question answering benchmark to understand how short and long inputs change the model behaviour. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 5,
+    "short": "This example discusses hidden states in a large web scale corpus to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses hidden states in a large web scale corpus to see whether the model forgets early tokens in long inputs. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 6,
+    "short": "This example discusses tokenization choices in a large web scale corpus to analyze how information is propagated through layers.",
+    "long": "This example discusses tokenization choices in a large web scale corpus to analyze how information is propagated through layers. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 7,
+    "short": "This example discusses activation distributions in a question answering benchmark to measure how activations evolve as depth increases.",
+    "long": "This example discusses activation distributions in a question answering benchmark to measure how activations evolve as depth increases. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 8,
+    "short": "This example discusses sequence length in an interactive dialogue setting to measure how activations evolve as depth increases.",
+    "long": "This example discusses sequence length in an interactive dialogue setting to measure how activations evolve as depth increases. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 9,
+    "short": "This example discusses representation learning in a code generation scenario to measure how activations evolve as depth increases.",
+    "long": "This example discusses representation learning in a code generation scenario to measure how activations evolve as depth increases. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 10,
+    "short": "This example discusses attention mechanisms in an interactive dialogue setting to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses attention mechanisms in an interactive dialogue setting to inspect which layers are most sensitive to context length. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 11,
+    "short": "This example discusses memory in recurrent models in a simple toy task to compare shallow and deep layers in the network.",
+    "long": "This example discusses memory in recurrent models in a simple toy task to compare shallow and deep layers in the network. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 12,
+    "short": "This example discusses prompt engineering in a document classification task to measure how activations evolve as depth increases.",
+    "long": "This example discusses prompt engineering in a document classification task to measure how activations evolve as depth increases. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 13,
+    "short": "This example discusses dataset bias in a code generation scenario to compare shallow and deep layers in the network.",
+    "long": "This example discusses dataset bias in a code generation scenario to compare shallow and deep layers in the network. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 14,
+    "short": "This example discusses evaluation benchmarks in a large web scale corpus to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses evaluation benchmarks in a large web scale corpus to study whether long contexts introduce distribution shift. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 15,
+    "short": "This example discusses prompt engineering in a simple toy task to understand which layers react strongly to global semantics.",
+    "long": "This example discusses prompt engineering in a simple toy task to understand which layers react strongly to global semantics. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 16,
+    "short": "This example discusses activation distributions in a document classification task to identify layers that behave like content filters.",
+    "long": "This example discusses activation distributions in a document classification task to identify layers that behave like content filters. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 17,
+    "short": "This example discusses training stability in an open ended generation task to measure how activations evolve as depth increases.",
+    "long": "This example discusses training stability in an open ended generation task to measure how activations evolve as depth increases. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 18,
+    "short": "This example discusses tokenization choices in a code generation scenario to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses tokenization choices in a code generation scenario to study whether long contexts introduce distribution shift. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 19,
+    "short": "This example discusses training stability in a question answering benchmark to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses training stability in a question answering benchmark to study whether long contexts introduce distribution shift. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 20,
+    "short": "This example discusses context windows in a large web scale corpus to identify layers that behave like content filters.",
+    "long": "This example discusses context windows in a large web scale corpus to identify layers that behave like content filters. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 21,
+    "short": "This example discusses long document reasoning in an open ended generation task to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses long document reasoning in an open ended generation task to evaluate whether the model remains stable for long sequences. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 22,
+    "short": "This example discusses representation learning in a code generation scenario to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses representation learning in a code generation scenario to understand how short and long inputs change the model behaviour. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 23,
+    "short": "This example discusses tokenization choices in a large web scale corpus to identify layers that behave like content filters.",
+    "long": "This example discusses tokenization choices in a large web scale corpus to identify layers that behave like content filters. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 24,
+    "short": "This example discusses dataset bias in a document classification task to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses dataset bias in a document classification task to see whether the model forgets early tokens in long inputs. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 25,
+    "short": "This example discusses instruction tuning in a large web scale corpus to understand which layers react strongly to global semantics.",
+    "long": "This example discusses instruction tuning in a large web scale corpus to understand which layers react strongly to global semantics. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 26,
+    "short": "This example discusses long document reasoning in a real world application to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses long document reasoning in a real world application to study whether long contexts introduce distribution shift. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 27,
+    "short": "This example discusses dataset bias in a document classification task to compare shallow and deep layers in the network.",
+    "long": "This example discusses dataset bias in a document classification task to compare shallow and deep layers in the network. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 28,
+    "short": "This example discusses tokenization choices in a large web scale corpus to analyze how information is propagated through layers.",
+    "long": "This example discusses tokenization choices in a large web scale corpus to analyze how information is propagated through layers. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 29,
+    "short": "This example discusses neural networks in a simple toy task to analyze how information is propagated through layers.",
+    "long": "This example discusses neural networks in a simple toy task to analyze how information is propagated through layers. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 30,
+    "short": "This example discusses dataset bias in a real world application to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses dataset bias in a real world application to see whether the model forgets early tokens in long inputs. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 31,
+    "short": "This example discusses evaluation benchmarks in a large web scale corpus to identify layers that behave like content filters.",
+    "long": "This example discusses evaluation benchmarks in a large web scale corpus to identify layers that behave like content filters. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 32,
+    "short": "This example discusses representation learning in a large web scale corpus to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses representation learning in a large web scale corpus to inspect which layers are most sensitive to context length. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 33,
+    "short": "This example discusses attention mechanisms in a question answering benchmark to analyze how information is propagated through layers.",
+    "long": "This example discusses attention mechanisms in a question answering benchmark to analyze how information is propagated through layers. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 34,
+    "short": "This example discusses zero shot generalization in a summarization task to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses zero shot generalization in a summarization task to understand how short and long inputs change the model behaviour. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 35,
+    "short": "This example discusses hidden states in a real world application to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses hidden states in a real world application to see whether the model forgets early tokens in long inputs. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 36,
+    "short": "This example discusses instruction tuning in a code generation scenario to understand which layers react strongly to global semantics.",
+    "long": "This example discusses instruction tuning in a code generation scenario to understand which layers react strongly to global semantics. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 37,
+    "short": "This example discusses training stability in a summarization task to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses training stability in a summarization task to evaluate whether the model remains stable for long sequences. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 38,
+    "short": "This example discusses prompt engineering in a code generation scenario to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses prompt engineering in a code generation scenario to see whether the model forgets early tokens in long inputs. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 39,
+    "short": "This example discusses model calibration in a summarization task to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses model calibration in a summarization task to study whether long contexts introduce distribution shift. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 40,
+    "short": "This example discusses memory in recurrent models in a code generation scenario to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses memory in recurrent models in a code generation scenario to see whether the model forgets early tokens in long inputs. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 41,
+    "short": "This example discusses memory in recurrent models in a summarization task to compare shallow and deep layers in the network.",
+    "long": "This example discusses memory in recurrent models in a summarization task to compare shallow and deep layers in the network. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 42,
+    "short": "This example discusses hidden states in an interactive dialogue setting to measure how activations evolve as depth increases.",
+    "long": "This example discusses hidden states in an interactive dialogue setting to measure how activations evolve as depth increases. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 43,
+    "short": "This example discusses few shot learning in a real world application to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses few shot learning in a real world application to inspect which layers are most sensitive to context length. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 44,
+    "short": "This example discusses hidden states in a question answering benchmark to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses hidden states in a question answering benchmark to inspect which layers are most sensitive to context length. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 45,
+    "short": "This example discusses sequence length in a question answering benchmark to identify layers that behave like content filters.",
+    "long": "This example discusses sequence length in a question answering benchmark to identify layers that behave like content filters. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 46,
+    "short": "This example discusses few shot learning in a summarization task to identify layers that behave like content filters.",
+    "long": "This example discusses few shot learning in a summarization task to identify layers that behave like content filters. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 47,
+    "short": "This example discusses activation distributions in a question answering benchmark to identify layers that behave like content filters.",
+    "long": "This example discusses activation distributions in a question answering benchmark to identify layers that behave like content filters. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 48,
+    "short": "This example discusses neural networks in an open ended generation task to identify layers that behave like content filters.",
+    "long": "This example discusses neural networks in an open ended generation task to identify layers that behave like content filters. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 49,
+    "short": "This example discusses neural networks in a document classification task to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses neural networks in a document classification task to study whether long contexts introduce distribution shift. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 50,
+    "short": "This example discusses prompt engineering in a code generation scenario to understand which layers react strongly to global semantics.",
+    "long": "This example discusses prompt engineering in a code generation scenario to understand which layers react strongly to global semantics. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 51,
+    "short": "This example discusses hidden states in a summarization task to analyze how information is propagated through layers.",
+    "long": "This example discusses hidden states in a summarization task to analyze how information is propagated through layers. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 52,
+    "short": "This example discusses prompt engineering in a summarization task to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses prompt engineering in a summarization task to understand how short and long inputs change the model behaviour. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 53,
+    "short": "This example discusses training stability in a question answering benchmark to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses training stability in a question answering benchmark to inspect which layers are most sensitive to context length. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 54,
+    "short": "This example discusses context windows in an open ended generation task to understand which layers react strongly to global semantics.",
+    "long": "This example discusses context windows in an open ended generation task to understand which layers react strongly to global semantics. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 55,
+    "short": "This example discusses representation learning in an open ended generation task to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses representation learning in an open ended generation task to evaluate whether the model remains stable for long sequences. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 56,
+    "short": "This example discusses sequence length in a question answering benchmark to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses sequence length in a question answering benchmark to inspect which layers are most sensitive to context length. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 57,
+    "short": "This example discusses long document reasoning in a simple toy task to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses long document reasoning in a simple toy task to study whether long contexts introduce distribution shift. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 58,
+    "short": "This example discusses training stability in a large web scale corpus to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses training stability in a large web scale corpus to see whether the model forgets early tokens in long inputs. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 59,
+    "short": "This example discusses training stability in a question answering benchmark to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses training stability in a question answering benchmark to study whether long contexts introduce distribution shift. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 60,
+    "short": "This example discusses memory in recurrent models in a real world application to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses memory in recurrent models in a real world application to see whether the model forgets early tokens in long inputs. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 61,
+    "short": "This example discusses few shot learning in a simple toy task to measure how activations evolve as depth increases.",
+    "long": "This example discusses few shot learning in a simple toy task to measure how activations evolve as depth increases. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 62,
+    "short": "This example discusses sequence length in a simple toy task to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses sequence length in a simple toy task to understand how short and long inputs change the model behaviour. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 63,
+    "short": "This example discusses activation distributions in a simple toy task to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses activation distributions in a simple toy task to evaluate whether the model remains stable for long sequences. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 64,
+    "short": "This example discusses hidden states in a small academic dataset to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses hidden states in a small academic dataset to see whether the model forgets early tokens in long inputs. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 65,
+    "short": "This example discusses evaluation benchmarks in a large web scale corpus to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses evaluation benchmarks in a large web scale corpus to see whether the model forgets early tokens in long inputs. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 66,
+    "short": "This example discusses gradient flow in a small academic dataset to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses gradient flow in a small academic dataset to evaluate whether the model remains stable for long sequences. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 67,
+    "short": "This example discusses attention mechanisms in a small academic dataset to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses attention mechanisms in a small academic dataset to study whether long contexts introduce distribution shift. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 68,
+    "short": "This example discusses evaluation benchmarks in a simple toy task to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses evaluation benchmarks in a simple toy task to study whether long contexts introduce distribution shift. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 69,
+    "short": "This example discusses representation learning in a question answering benchmark to analyze how information is propagated through layers.",
+    "long": "This example discusses representation learning in a question answering benchmark to analyze how information is propagated through layers. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 70,
+    "short": "This example discusses evaluation benchmarks in a large web scale corpus to compare shallow and deep layers in the network.",
+    "long": "This example discusses evaluation benchmarks in a large web scale corpus to compare shallow and deep layers in the network. The experiment is designed to highlight subtle differences between short and long prompts."
+  },
+  {
+    "id": 71,
+    "short": "This example discusses dataset bias in a real world application to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses dataset bias in a real world application to evaluate whether the model remains stable for long sequences. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 72,
+    "short": "This example discusses gradient flow in a code generation scenario to identify layers that behave like content filters.",
+    "long": "This example discusses gradient flow in a code generation scenario to identify layers that behave like content filters. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 73,
+    "short": "This example discusses sequence length in a code generation scenario to measure how activations evolve as depth increases.",
+    "long": "This example discusses sequence length in a code generation scenario to measure how activations evolve as depth increases. The analysis focuses on per layer statistics and compares short inputs to longer variants."
+  },
+  {
+    "id": 74,
+    "short": "This example discusses prompt engineering in a summarization task to compare shallow and deep layers in the network.",
+    "long": "This example discusses prompt engineering in a summarization task to compare shallow and deep layers in the network. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 75,
+    "short": "This example discusses gradient flow in a summarization task to inspect which layers are most sensitive to context length.",
+    "long": "This example discusses gradient flow in a summarization task to inspect which layers are most sensitive to context length. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 76,
+    "short": "This example discusses long document reasoning in a code generation scenario to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses long document reasoning in a code generation scenario to study whether long contexts introduce distribution shift. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 77,
+    "short": "This example discusses few shot learning in a summarization task to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses few shot learning in a summarization task to see whether the model forgets early tokens in long inputs. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 78,
+    "short": "This example discusses evaluation benchmarks in an interactive dialogue setting to measure how activations evolve as depth increases.",
+    "long": "This example discusses evaluation benchmarks in an interactive dialogue setting to measure how activations evolve as depth increases. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 79,
+    "short": "This example discusses sequence length in an interactive dialogue setting to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses sequence length in an interactive dialogue setting to see whether the model forgets early tokens in long inputs. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 80,
+    "short": "This example discusses instruction tuning in an open ended generation task to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses instruction tuning in an open ended generation task to evaluate whether the model remains stable for long sequences. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 81,
+    "short": "This example discusses training stability in a simple toy task to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses training stability in a simple toy task to see whether the model forgets early tokens in long inputs. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 82,
+    "short": "This example discusses long document reasoning in a summarization task to analyze how information is propagated through layers.",
+    "long": "This example discusses long document reasoning in a summarization task to analyze how information is propagated through layers. By tracking the distributions across depth, the team can see consistent patterns."
+  },
+  {
+    "id": 83,
+    "short": "This example discusses memory in recurrent models in a document classification task to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses memory in recurrent models in a document classification task to study whether long contexts introduce distribution shift. These observations guide future work on length robustness and model design."
+  },
+  {
+    "id": 84,
+    "short": "This example discusses memory in recurrent models in a code generation scenario to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses memory in recurrent models in a code generation scenario to understand how short and long inputs change the model behaviour. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 85,
+    "short": "This example discusses activation distributions in a real world application to analyze how information is propagated through layers.",
+    "long": "This example discusses activation distributions in a real world application to analyze how information is propagated through layers. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 86,
+    "short": "This example discusses model calibration in a code generation scenario to analyze how information is propagated through layers.",
+    "long": "This example discusses model calibration in a code generation scenario to analyze how information is propagated through layers. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 87,
+    "short": "This example discusses model calibration in a summarization task to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses model calibration in a summarization task to understand how short and long inputs change the model behaviour. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 88,
+    "short": "This example discusses tokenization choices in a large web scale corpus to identify layers that behave like content filters.",
+    "long": "This example discusses tokenization choices in a large web scale corpus to identify layers that behave like content filters. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 89,
+    "short": "This example discusses tokenization choices in an open ended generation task to measure how activations evolve as depth increases.",
+    "long": "This example discusses tokenization choices in an open ended generation task to measure how activations evolve as depth increases. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 90,
+    "short": "This example discusses few shot learning in a code generation scenario to measure how activations evolve as depth increases.",
+    "long": "This example discusses few shot learning in a code generation scenario to measure how activations evolve as depth increases. The results provide intuition about how the model allocates its capacity."
+  },
+  {
+    "id": 91,
+    "short": "This example discusses few shot learning in a document classification task to measure how activations evolve as depth increases.",
+    "long": "This example discusses few shot learning in a document classification task to measure how activations evolve as depth increases. The setup mirrors how models are often used in practical long context scenarios."
+  },
+  {
+    "id": 92,
+    "short": "This example discusses memory in recurrent models in an interactive dialogue setting to study whether long contexts introduce distribution shift.",
+    "long": "This example discusses memory in recurrent models in an interactive dialogue setting to study whether long contexts introduce distribution shift. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 93,
+    "short": "This example discusses attention mechanisms in a large web scale corpus to measure how activations evolve as depth increases.",
+    "long": "This example discusses attention mechanisms in a large web scale corpus to measure how activations evolve as depth increases. Researchers collect activations from all layers and study the resulting distributions."
+  },
+  {
+    "id": 94,
+    "short": "This example discusses few shot learning in a small academic dataset to analyze how information is propagated through layers.",
+    "long": "This example discusses few shot learning in a small academic dataset to analyze how information is propagated through layers. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 95,
+    "short": "This example discusses model calibration in an interactive dialogue setting to evaluate whether the model remains stable for long sequences.",
+    "long": "This example discusses model calibration in an interactive dialogue setting to evaluate whether the model remains stable for long sequences. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 96,
+    "short": "This example discusses dataset bias in an interactive dialogue setting to compare shallow and deep layers in the network.",
+    "long": "This example discusses dataset bias in an interactive dialogue setting to compare shallow and deep layers in the network. This helps reveal which layers are most affected by increasing context length."
+  },
+  {
+    "id": 97,
+    "short": "This example discusses tokenization choices in a large web scale corpus to measure how activations evolve as depth increases.",
+    "long": "This example discusses tokenization choices in a large web scale corpus to measure how activations evolve as depth increases. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 98,
+    "short": "This example discusses tokenization choices in a simple toy task to understand which layers react strongly to global semantics.",
+    "long": "This example discusses tokenization choices in a simple toy task to understand which layers react strongly to global semantics. The study reports several metrics, including Wasserstein distance and JS divergence."
+  },
+  {
+    "id": 99,
+    "short": "This example discusses memory in recurrent models in a simple toy task to understand how short and long inputs change the model behaviour.",
+    "long": "This example discusses memory in recurrent models in a simple toy task to understand how short and long inputs change the model behaviour. The findings are later summarized with confidence intervals over many examples."
+  },
+  {
+    "id": 100,
+    "short": "This example discusses tokenization choices in a small academic dataset to see whether the model forgets early tokens in long inputs.",
+    "long": "This example discusses tokenization choices in a small academic dataset to see whether the model forgets early tokens in long inputs. Researchers collect activations from all layers and study the resulting distributions."
+  }
+]

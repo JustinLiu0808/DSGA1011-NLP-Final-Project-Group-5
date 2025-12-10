@@ -1,0 +1,12 @@
+numpy>=2.0.0
+scipy>=1.13.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# 和 Python 3.12 兼容、Colab 可装的一组组合
+torch==2.2.2
+torchvision==0.17.2
+
+rwkv          # 先不锁版本，安装时看是否冲突
+tqdm>=4.66.0

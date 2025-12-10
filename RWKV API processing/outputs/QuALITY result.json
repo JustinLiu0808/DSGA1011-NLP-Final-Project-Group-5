@@ -1,0 +1,56 @@
+{
+  "World 0.1B": {
+    "Total time": 1134.901787519455,
+    "Overall Accuracy": 0.11984659635666348,
+    "Hard Accuracy": 0.11267605633802817,
+    "Normal Accuracy": 0.12732615083251714
+  },
+  "World 0.4B": {
+    "Total time": 2248.2596435546875,
+    "Overall Accuracy": 0.24304889741131352,
+    "Hard Accuracy": 0.24225352112676057,
+    "Normal Accuracy": 0.24387855044074436
+  },
+  "World 1.5B": {
+    "Total time": 2377.6378695964813,
+    "Overall Accuracy": 0.4074784276126558,
+    "Hard Accuracy": 0.3539906103286385,
+    "Normal Accuracy": 0.4632713026444662
+  },
+  "World 2.9B": {
+    "Total time": 3392.6596295833588,
+    "Overall Accuracy": 0.45589645254074784,
+    "Hard Accuracy": 0.39906103286384975,
+    "Normal Accuracy": 0.515181194906954
+  },
+  "Pile 1.47B": {
+    "Total time": 2377.6536564826965,
+    "Overall Accuracy": 0.025407478427612654,
+    "Hard Accuracy": 0.027230046948356807,
+    "Normal Accuracy": 0.023506366307541625
+  },
+  "Pile 421M": {
+    "Total time": 2297.2677416801453,
+    "Overall Accuracy": 0.029242569511025888,
+    "Hard Accuracy": 0.028169014084507043,
+    "Normal Accuracy": 0.030362389813907934
+  },
+  "Pile 168M": {
+    "Total time": 1190.2018074989319,
+    "Overall Accuracy": 0.0488974113135187,
+    "Hard Accuracy": 0.04037558685446009,
+    "Normal Accuracy": 0.05778648383937316
+  },
+  "Pile 165M L25-D576": {
+    "Total time": 2365.1586310863495,
+    "Overall Accuracy": 0.0666347075743049,
+    "Hard Accuracy": 0.07136150234741784,
+    "Normal Accuracy": 0.061704211557296766
+  },
+  "Pile 164M L33-D512": {
+    "Total time": 3074.3861141204834,
+    "Overall Accuracy": 0.07909875359539789,
+    "Hard Accuracy": 0.06948356807511737,
+    "Normal Accuracy": 0.089128305582762
+  }
+}
