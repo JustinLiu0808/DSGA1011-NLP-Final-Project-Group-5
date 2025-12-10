@@ -1,0 +1,66 @@
+{
+  "World 0.1B": {
+    "Total time": 817.7883086204529,
+    "Overall Accuracy": 0.23859218334356455,
+    "High Accuracy": 0.2350043465662127,
+    "Middle Accuracy": 0.24721448467966572,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "World 0.4B": {
+    "Total time": 3686.8413972854614,
+    "Overall Accuracy": 0.20748925721301412,
+    "High Accuracy": 0.20805563604752245,
+    "Middle Accuracy": 0.20612813370473537,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "World 1.5B": {
+    "Total time": 3472.0407433509827,
+    "Overall Accuracy": 0.23797830980151422,
+    "High Accuracy": 0.23819182845552014,
+    "Middle Accuracy": 0.23746518105849582,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "World 2.9B": {
+    "Total time": 1770.320122718811,
+    "Overall Accuracy": 0.5657867812563945,
+    "High Accuracy": 0.5537525354969574,
+    "Middle Accuracy": 0.5947075208913649,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "g1 0.1B": {
+    "Total time": 1849.7747819423676,
+    "Overall Accuracy": 0.2156742377736853,
+    "High Accuracy": 0.21674876847290642,
+    "Middle Accuracy": 0.21309192200557103,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "g1 0.4B": {
+    "Total time": 4766.766356468201,
+    "Overall Accuracy": 0.15019439328831594,
+    "High Accuracy": 0.15126050420168066,
+    "Middle Accuracy": 0.14763231197771587,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "g1 1.5B": {
+    "Total time": 1241.9784860610962,
+    "Overall Accuracy": 0.35809289952936363,
+    "High Accuracy": 0.3442480440452043,
+    "Middle Accuracy": 0.39136490250696376,
+    "Eval split": "validation",
+    "Num samples": 4887
+  },
+  "g1 2.9B": {
+    "Total time": 1948.7700226306915,
+    "Overall Accuracy": 0.6112134233681195,
+    "High Accuracy": 0.5995363662706462,
+    "Middle Accuracy": 0.6392757660167131,
+    "Eval split": "validation",
+    "Num samples": 4887
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "World 0.1B": {
+    "Total time": 1476.8417870998383,
+    "Overall Accuracy": 0.2037392138063279,
+    "Hard Accuracy": 0.2,
+    "Normal Accuracy": 0.20763956904995104,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "World 0.4B": {
+    "Total time": 3833.8985636234283,
+    "Overall Accuracy": 0.1673058485139022,
+    "Hard Accuracy": 0.16150234741784036,
+    "Normal Accuracy": 0.1733594515181195,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "World 1.5B": {
+    "Total time": 4349.668841838837,
+    "Overall Accuracy": 0.22627037392138064,
+    "Hard Accuracy": 0.22629107981220659,
+    "Normal Accuracy": 0.22624877571008814,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "World 2.9B": {
+    "Total time": 5317.945394277573,
+    "Overall Accuracy": 0.34995206136145734,
+    "Hard Accuracy": 0.3192488262910798,
+    "Normal Accuracy": 0.3819784524975514,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "g1 0.1B": {
+    "Total time": 1578.5693626403809,
+    "Overall Accuracy": 0.16682646212847554,
+    "Hard Accuracy": 0.17089201877934274,
+    "Normal Accuracy": 0.16258570029382957,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "g1 0.4B": {
+    "Total time": 3344.9962825775146,
+    "Overall Accuracy": 0.15340364333652926,
+    "Hard Accuracy": 0.15586854460093896,
+    "Normal Accuracy": 0.15083251714005877,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "g1 1.5B": {
+    "Total time": 2976.197424173355,
+    "Overall Accuracy": 0.27037392138063276,
+    "Hard Accuracy": 0.26103286384976526,
+    "Normal Accuracy": 0.2801175318315377,
+    "Eval split": "dev",
+    "Num records": 230
+  },
+  "g1 2.9B": {
+    "Total time": 5389.173486948013,
+    "Overall Accuracy": 0.412751677852349,
+    "Hard Accuracy": 0.355868544600939,
+    "Normal Accuracy": 0.4720861900097943,
+    "Eval split": "dev",
+    "Num records": 230
+  }
+}
