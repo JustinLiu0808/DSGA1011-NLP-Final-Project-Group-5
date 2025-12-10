@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "RWKV-Runner",
+  "outputfilename": "RWKV-Runner",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "josc146",
+    "email": "josStorer@outlook.com"
+  },
+  "Info": {
+    "companyName": "RWKV-Runner",
+    "productName": "RWKV-Runner",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2023 RWKV-Runner"
+  }
+}
